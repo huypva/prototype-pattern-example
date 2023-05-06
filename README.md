@@ -32,5 +32,13 @@ $ java -jar ./prototype-pattern/target/prototype-pattern-0.0.1-SNAPSHOT.jar
 ```
 
 ## Contribute
+The code is open sourced. I encourage fellow developers to contribute and help improve it!
+
+- Fork it
+- Create your feature branch (git checkout -b new-feature)
+- Ensure all tests are passing
+- Commit your changes (git commit -am 'Add some feature')
+- Push to the branch (git push origin my-new-feature)
+- Create new Pull Request
 
 ## Reference
