@@ -8,7 +8,7 @@ The hello-world project
 ## Project structure
 ```
 .
-├── hello-world
+├── prototype-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -19,8 +19,8 @@ The hello-world project
 ## Start project
 
 ```shell
-$ ./mvn clean package
-$ java -jar hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
+$ ./mvnw clean package
+$ java -jar ./prototype-pattern/target/prototype-pattern-0.0.1-SNAPSHOT.jar
 ```
 
 ```shell

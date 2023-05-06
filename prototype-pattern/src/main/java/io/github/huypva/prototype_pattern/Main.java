@@ -1,4 +1,4 @@
-package io.codebyexample.helloworld;
+package io.github.huypva.prototype_pattern;
 
 /**
  * @author huypva

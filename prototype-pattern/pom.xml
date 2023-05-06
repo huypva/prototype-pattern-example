@@ -3,20 +3,30 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>io.codebyexample</groupId>
-	<artifactId>hello-world</artifactId>
+	<groupId>io.github.huypva</groupId>
+	<artifactId>prototype-pattern</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Hello World</name>
+	<name>Prototype Pattern</name>
 
 	<properties>
-		<mainClass>io.codebyexample.helloworld.Main</mainClass>
+		<mainClass>io.github.huypva.prototype_pattern.Main</mainClass>
 
-		<java.version>1.8</java.version>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
+		<java.version>17</java.version>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
